@@ -86,13 +86,18 @@ function App() {
   }
 
   const deleteProduct = async (id) => {
-    await fetch(`${url}/${id}`, {
-      method: "DELETE",
-      headers: {
-        "content-type": "application/json"
-      },
-    });
-    setProducts((prevProducts) => prevProducts.filter(prod => prod.id !== id));
+    try {
+      await fetch(`${url}/${id}`, {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json"
+        }
+      });
+      setProducts((prevProducts) => prevProducts.filter(prod => prod.id !== id));
+    } catch (error) {
+      console.error('Erro ao deletar produto:', error.message);
+      // Aqui você pode definir um estado de erro para exibir ao usuário
+    }
   }
 
   const handleName = (e) => { setName(e.target.value) };

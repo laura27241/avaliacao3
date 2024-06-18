@@ -15,11 +15,11 @@ function LoginForm({ handleLogin, errorMessage }) {
       <form className="login-form" onSubmit={handleSubmit}>
         <h2>Login</h2>
         <div>
-          <label>Username: </label>
+          <label>Nome: </label>
           <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} required />
         </div>
         <div>
-          <label>Password: </label>
+          <label>Senha: </label>
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} required />
         </div>
         {errorMessage && <p className="error-message">{errorMessage}</p>}

@@ -1,10 +1,16 @@
 {
   "products": [
     {
-      "id": "5af4",
-      "name": "Queijo",
-      "price": "20",
-      "stock": "67"
+      "id": "6d3d",
+      "name": "presunto",
+      "price": "30",
+      "stock": "90"
+    },
+    {
+      "id": "d613",
+      "name": "queijo",
+      "price": "70",
+      "stock": "70"
     }
   ]
 }

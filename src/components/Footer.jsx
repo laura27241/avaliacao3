@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2024 My App. All rights reserved.</p>
+      <p>Desenvolvido por Amanda e Laura</p>
     </footer>
   );
 }
