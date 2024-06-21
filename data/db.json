@@ -11,6 +11,12 @@
       "name": "queijo",
       "price": "70",
       "stock": "70"
+    },
+    {
+      "id": "6001",
+      "name": "Queijo",
+      "price": "20",
+      "stock": "33"
     }
   ]
 }

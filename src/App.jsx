@@ -34,11 +34,11 @@ function App() {
 
   const handleLogin = async (username, password) => {
     // Simulação de verificação de login com backend
-    if (username === 'admin' && password === 'password') {
+    if (username === 'AmandaELaura' && password === '123456') {
       setIsAuthenticated(true);
       setErrorMessage("");
     } else {
-      setErrorMessage("Invalid username or password");
+      setErrorMessage("Nome ou senha inválido!");
     }
   }
 
