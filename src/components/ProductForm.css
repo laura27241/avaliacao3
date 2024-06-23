@@ -1,40 +1,40 @@
 .container {
   width: 100%;
-  max-width: 400px; /* Largura máxima do container */
+  max-width: 400px;
   margin: 50px auto;
-  background-color: #f5f5dc; /* Cor de fundo bege */
+  background-color: #f5f5dc;
   padding: 20px;
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 0 10px rgba(0, 31, 63, 0.4); /* Sombra suave em azul mais escuro */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 31, 63, 0.4);
 }
 
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #001f3f; /* Cor do texto azul marinho */
+  color: #001f3f;
 }
 
 .form-label {
   display: block;
   margin-bottom: 5px;
   text-align: left;
-  color: #001f3f; /* Cor do texto azul marinho */
+  color: #001f3f;
 }
 
 .form-input {
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
-  border: 1px solid #001f3f; /* Borda azul marinho */
+  border: 1px solid #001f3f;
   border-radius: 4px;
   box-sizing: border-box;
-  background-color: #fff; /* Cor de fundo branca */
-  color: #001f3f; /* Cor do texto azul marinho */
+  background-color: #fff;
+  color: #001f3f;
 }
 
 .form-submit {
-  background-color: #001f3f; /* Cor de fundo azul marinho */
-  color: #f5f5dc; /* Cor do texto bege */
+  background-color: #001f3f;
+  color: #f5f5dc;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
@@ -43,5 +43,5 @@ h2 {
 }
 
 .form-submit:hover {
-  background-color: #0056b3; /* Cor de fundo azul marinho mais escuro no hover */
+  background-color: #001f3f;
 }

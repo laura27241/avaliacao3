@@ -3,8 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #fffaf0; /* Cor de fundo bege mais claro */
-  color: #001f3f; /* Cor do texto azul marinho */
-  border: 1px solid #001f3f; /* Borda em um tom de ouro (como bege claro) */
-  box-shadow: 0 4px 8px rgba(253, 185, 19, 0.2); /* Sombra em um tom de ouro (como bege claro) */
+  background-color: #fffaf0; 
+  color: #001f3f; 
+  border: 1px solid #001f3f; 
+  box-shadow: 0 4px 8px rgba(253, 185, 19, 0.2); 
 }

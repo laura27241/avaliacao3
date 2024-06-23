@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -25,7 +26,6 @@ body {
 
 .actions button {
     padding: 5px;
-    /* font-size: 16px; */
 }
 
 .table_container h2 {

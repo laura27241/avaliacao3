@@ -3,15 +3,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #001f3f; 
+  background-color: #001f3f;
   color: #f5f5dc;
-  border-bottom: 1px solid #f5f5dc; 
-  box-shadow: 0 4px 8px rgba(0, 31, 63, 0.2); 
+  box-shadow: 0 4px 8px rgba(0, 31, 63, 0.2);
 }
 
 .navbar h1 {
   margin: 0;
-  color: #f5f5dc; 
 }
 
 .navbar ul {
@@ -26,7 +24,7 @@
 }
 
 .navbar ul li a {
-  color: #f5f5dc; 
+  color: #f5f5dc;
   text-decoration: none;
 }
 
