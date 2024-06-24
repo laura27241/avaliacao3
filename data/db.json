@@ -18,5 +18,25 @@
       "price": "3",
       "stock": "200"
     }
+  ],
+  "users": [
+    {
+      "id": "1663",
+      "name": "amanda.pessoa",
+      "email": "amanda@gmail.com",
+      "senha": "12345"
+    },
+    {
+      "id": "05ca",
+      "name": "laura.laurindo",
+      "email": "laura@gmail.com",
+      "senha": "5678"
+    },
+    {
+      "id": "964f",
+      "name": "joao",
+      "email": "joao@gmail.com",
+      "senha": "9078"
+    }
   ]
 }

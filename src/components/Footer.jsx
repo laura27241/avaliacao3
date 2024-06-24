@@ -3,9 +3,9 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
-      <p>@ Desenvolvido por Amanda e Laura</p>
-    </footer>
+    <div className="footer">
+        <p>© 2024 Desenvolvido por Amanda e Laura</p>
+      </div>
   );
 }
 

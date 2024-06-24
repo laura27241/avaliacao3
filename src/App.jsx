@@ -22,6 +22,7 @@ function App() {
   const [userId, setUserId] = useState("");
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
+  const [userSenha, setUserSenha] = useState("");
   const [editUser, setEditUser] = useState(false);
 
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -66,7 +67,7 @@ function App() {
   }, [isAuthenticated]);
 
   const handleLogin = async (username, password) => {
-    if (username === 'AmandaELaura' && password === '123456') {
+    if (username === 'admin' && password === '123456') {
       setIsAuthenticated(true);
       setErrorMessage("");
       navigate('/products');
@@ -86,6 +87,7 @@ function App() {
   const clearUserForm = () => {
     setUserName("");
     setUserEmail("");
+    setUserSenha("");
     setEditUser(false);
     setUserId("");
   };
@@ -179,6 +181,7 @@ function App() {
       const data = await response.json();
       setUserName(data.name);
       setUserEmail(data.email);
+      setUserSenha(data.senha);
       setUserId(data.id);
       setEditUser(true);
       navigate('/add-user');
@@ -194,7 +197,7 @@ function App() {
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify({ name: userName, email: userEmail })
+      body: JSON.stringify({ name: userName, email: userEmail, senha: userSenha })
     };
     const saveUrl = editUser ? `${usersUrl}/${userId}` : usersUrl;
     try {
@@ -263,8 +266,10 @@ function App() {
             <UserForm
               name={userName}
               email={userEmail}
+              senha={userSenha}
               handleName={e => setUserName(e.target.value)}
               handleEmail={e => setUserEmail(e.target.value)}
+              handleSenha={e => setUserSenha(e.target.value)}
               saveUser={saveUser}
             />
           </div>

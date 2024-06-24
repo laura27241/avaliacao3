@@ -1,4 +1,5 @@
 import React from 'react';
+import './UserTable.css';
 
 function UserTable({ users, deleteUser, editUser }) {
   return (
@@ -7,7 +8,7 @@ function UserTable({ users, deleteUser, editUser }) {
         <thead>
           <tr>
             <th>ID</th>
-            <th>Username</th>
+            <th>Usuário</th>
             <th>Email</th>
             <th>Ações</th>
           </tr>
@@ -16,7 +17,7 @@ function UserTable({ users, deleteUser, editUser }) {
           {users.map((user) => (
             <tr key={user.id}>
               <td>{user.id}</td>
-              <td>{user.username}</td>
+              <td>{user.name}</td>
               <td>{user.email}</td>
               <td className="actions">
                 <button onClick={() => editUser(user.id)}>Editar</button>
